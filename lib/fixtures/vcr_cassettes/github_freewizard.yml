@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/users/freewizard
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.github.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 20 Jan 2015 02:35:52 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '53'
+      X-Ratelimit-Reset:
+      - '1421721800'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Sat, 17 Jan 2015 10:21:48 GMT
+      Etag:
+      - W/"0ecc3c5a0925d5ca16656be6f4f86a45"
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 6BB5175A:536A:1C6DC92:54BDBF08
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 13d09b732ebe76f892093130dc088652
+    body:
+      encoding: UTF-8
+      string: '{"login":"freewizard","id":7655,"avatar_url":"https://avatars.githubusercontent.com/u/7655?v=3","gravatar_id":"","url":"https://api.github.com/users/freewizard","html_url":"https://github.com/freewizard","followers_url":"https://api.github.com/users/freewizard/followers","following_url":"https://api.github.com/users/freewizard/following{/other_user}","gists_url":"https://api.github.com/users/freewizard/gists{/gist_id}","starred_url":"https://api.github.com/users/freewizard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/freewizard/subscriptions","organizations_url":"https://api.github.com/users/freewizard/orgs","repos_url":"https://api.github.com/users/freewizard/repos","events_url":"https://api.github.com/users/freewizard/events{/privacy}","received_events_url":"https://api.github.com/users/freewizard/received_events","type":"User","site_admin":false,"name":"Du
+        Song","company":"FreeWheel Inc.","blog":"http://rollingcode.org/","location":"Beijing,
+        P. R. China","email":"freewizard@gmail.com","hireable":false,"bio":null,"public_repos":32,"public_gists":13,"followers":62,"following":78,"created_at":"2008-04-17T02:30:08Z","updated_at":"2015-01-17T10:21:48Z"}'
+    http_version: 
+  recorded_at: Tue, 20 Jan 2015 02:35:52 GMT
+recorded_with: VCR 2.9.3

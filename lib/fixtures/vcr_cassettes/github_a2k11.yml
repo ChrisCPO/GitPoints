@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/users/a2k11
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.github.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Sun, 18 Jan 2015 23:28:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '58'
+      X-Ratelimit-Reset:
+      - '1421627314'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Fri, 09 Jan 2015 22:33:55 GMT
+      Etag:
+      - W/"fa76e561f83b07c535b233c0edbdc701"
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 44ADE311:42EF:BF0FF65:54BC41A2
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 07ff1c8a09e44b62e277fae50a1b1dc4
+    body:
+      encoding: UTF-8
+      string: '{"login":"a2k11","id":5412858,"avatar_url":"https://avatars.githubusercontent.com/u/5412858?v=3","gravatar_id":"","url":"https://api.github.com/users/a2k11","html_url":"https://github.com/a2k11","followers_url":"https://api.github.com/users/a2k11/followers","following_url":"https://api.github.com/users/a2k11/following{/other_user}","gists_url":"https://api.github.com/users/a2k11/gists{/gist_id}","starred_url":"https://api.github.com/users/a2k11/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/a2k11/subscriptions","organizations_url":"https://api.github.com/users/a2k11/orgs","repos_url":"https://api.github.com/users/a2k11/repos","events_url":"https://api.github.com/users/a2k11/events{/privacy}","received_events_url":"https://api.github.com/users/a2k11/received_events","type":"User","site_admin":false,"name":"Adam
+        Kaewell","company":"Metis","blog":"http://blog.adam.kaewell.com","location":"NYC","email":"adam.kaewell@gmail.com","hireable":false,"bio":null,"public_repos":9,"public_gists":2,"followers":1,"following":0,"created_at":"2013-09-08T18:22:44Z","updated_at":"2015-01-09T22:33:55Z"}'
+    http_version: 
+  recorded_at: Sun, 18 Jan 2015 23:28:34 GMT
+recorded_with: VCR 2.9.3
