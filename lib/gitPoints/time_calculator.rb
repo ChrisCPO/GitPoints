@@ -1,3 +1,5 @@
+require "git_points"
+
 class TimeCalculator
   attr_accessor :points
   attr_reader :hash

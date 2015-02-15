@@ -1,5 +1,4 @@
-require_relative "profile_calculator"
-require_relative "repo_calculator"
+require "git_points"
 
 class User
   attr_reader :name, :points, :repo_score, :profile_score

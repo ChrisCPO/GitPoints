@@ -1,5 +1,4 @@
-require_relative "data_retriever"
-require "pry"
+require "git_points"
 
 class RepoCalculator
   attr_accessor :points
