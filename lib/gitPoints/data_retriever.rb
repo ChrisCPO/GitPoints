@@ -1,7 +1,4 @@
-require_relative "config_vcr"
-require "json"
-require "net/http"
-require "vcr"
+require "git_points"
 
 class DataRetriever
   attr_reader :name, :filename, :url

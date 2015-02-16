@@ -1,5 +1,4 @@
-require "vcr"
-require "webmock"
+require "git_points"
 
 class VcrConfig
   def initialize

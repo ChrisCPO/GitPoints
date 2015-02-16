@@ -1,1 +1,1 @@
-require "gitPoints"
+require "git_points"

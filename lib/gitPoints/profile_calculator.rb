@@ -1,6 +1,4 @@
-require_relative "data_retriever"
-require_relative "time_calculator"
-require "pry"
+require "git_points"
 
 class ProfileCalculator
   attr_accessor :points
