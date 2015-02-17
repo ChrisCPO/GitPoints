@@ -2,19 +2,18 @@ require "git_points"
 
 class TimeCalculator
   attr_accessor :points
-  attr_reader :hash
+  attr_reader :hash, :points_per_year
 
-  POINTS_PER_YEAR = 5
 
   def initialize(hash)
     @points = 0
     @hash = hash
-    calculate
+    @points_per_year = 5
   end
 
   def calculate
     created_year = Time.parse(hash["created_at"]).year
     current_year = Time.new.year
-    self.points = (current_year - created_year) * POINTS_PER_YEAR
+    self.points = (current_year - created_year) * points_per_year
   end
 end

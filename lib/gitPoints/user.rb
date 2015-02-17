@@ -5,20 +5,19 @@ class User
 
   def initialize(name)
     @name = name
-    assign_points
   end
-
-  private
 
   def assign_points
     @points = repo_points + profile_points
   end
 
+  private
+
   def repo_points
-    @repo_score = RepoCalculator.new(name).points
+    @repo_score = RepoCalculator.new(name).calculate
   end
 
   def profile_points
-    @profile_score = ProfileCalculator.new(name).points
+    @profile_score = ProfileCalculator.new(name).calculate
   end
 end

@@ -1,7 +1,6 @@
 require "json"
 require "net/http"
 require "vcr"
-require_relative "gitPoints/config_vcr"
 require_relative "gitPoints/data_retriever"
 require_relative "gitPoints/profile_calculator"
 require_relative "gitPoints/repo_calculator"
@@ -14,8 +13,7 @@ module GitPoints
 
   class UserPoints
     def self.git_points(name)
-      user = User.new(name)
-      user.points
+      User.new(name).assign_points
     end
   end
 end
