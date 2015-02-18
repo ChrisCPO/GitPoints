@@ -1,0 +1,153 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/users/ChrisCPO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.github.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 17 Feb 2015 20:51:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '32'
+      X-Ratelimit-Reset:
+      - '1424207396'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 16 Feb 2015 21:30:42 GMT
+      Etag:
+      - W/"d6410adb31eef40b03c4b23426e6d7dd"
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 44ADE311:72C7:26116199:54E3A9DC
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 8dd185e423974a7e13abbbe6e060031e
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"ChrisCPO","id":7773951,"avatar_url":"https://avatars.githubusercontent.com/u/7773951?v=3","gravatar_id":"","url":"https://api.github.com/users/ChrisCPO","html_url":"https://github.com/ChrisCPO","followers_url":"https://api.github.com/users/ChrisCPO/followers","following_url":"https://api.github.com/users/ChrisCPO/following{/other_user}","gists_url":"https://api.github.com/users/ChrisCPO/gists{/gist_id}","starred_url":"https://api.github.com/users/ChrisCPO/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ChrisCPO/subscriptions","organizations_url":"https://api.github.com/users/ChrisCPO/orgs","repos_url":"https://api.github.com/users/ChrisCPO/repos","events_url":"https://api.github.com/users/ChrisCPO/events{/privacy}","received_events_url":"https://api.github.com/users/ChrisCPO/received_events","type":"User","site_admin":false,"name":"Chris
+        O''Donnell","company":"","blog":"http://chriscpo.github.io/","location":"New
+        York City","email":"ChrisCPO@gmail.com","hireable":true,"bio":null,"public_repos":13,"public_gists":2,"followers":4,"following":9,"created_at":"2014-06-02T22:01:23Z","updated_at":"2015-02-16T21:30:42Z"}'
+    http_version: 
+  recorded_at: Tue, 17 Feb 2015 20:51:39 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/ChrisCPO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.github.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 17 Feb 2015 20:51:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '31'
+      X-Ratelimit-Reset:
+      - '1424207396'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 16 Feb 2015 21:30:42 GMT
+      Etag:
+      - W/"d6410adb31eef40b03c4b23426e6d7dd"
+      Vary:
+      - Accept
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 44ADE311:72C6:1DFAAAA9:54E3A9DC
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 173530fed4bbeb1e264b2ed22e8b5c20
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"ChrisCPO","id":7773951,"avatar_url":"https://avatars.githubusercontent.com/u/7773951?v=3","gravatar_id":"","url":"https://api.github.com/users/ChrisCPO","html_url":"https://github.com/ChrisCPO","followers_url":"https://api.github.com/users/ChrisCPO/followers","following_url":"https://api.github.com/users/ChrisCPO/following{/other_user}","gists_url":"https://api.github.com/users/ChrisCPO/gists{/gist_id}","starred_url":"https://api.github.com/users/ChrisCPO/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ChrisCPO/subscriptions","organizations_url":"https://api.github.com/users/ChrisCPO/orgs","repos_url":"https://api.github.com/users/ChrisCPO/repos","events_url":"https://api.github.com/users/ChrisCPO/events{/privacy}","received_events_url":"https://api.github.com/users/ChrisCPO/received_events","type":"User","site_admin":false,"name":"Chris
+        O''Donnell","company":"","blog":"http://chriscpo.github.io/","location":"New
+        York City","email":"ChrisCPO@gmail.com","hireable":true,"bio":null,"public_repos":13,"public_gists":2,"followers":4,"following":9,"created_at":"2014-06-02T22:01:23Z","updated_at":"2015-02-16T21:30:42Z"}'
+    http_version: 
+  recorded_at: Tue, 17 Feb 2015 20:51:40 GMT
+recorded_with: VCR 2.9.3

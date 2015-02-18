@@ -6,16 +6,17 @@ class RepoCalculator
 
   def initialize(name)
     @points = 0
-    @hash = DataRetriever.new(name,
-                              url: "/repos",
-                              filename: "#{name}_reops"
-                             ).get_data
-    calculate
+    @hash = DataRetriever.new(name, "/repos").get_data
+  end
+
+  def calculate
+    add_points
+    self.points
   end
 
   private
 
-  def calculate
+  def add_points
     hash.each do |repo|
       self.points += repo["stargazers_count"]
       self.points += repo["watchers_count"]

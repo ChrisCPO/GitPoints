@@ -1,6 +1,9 @@
 # GitPoints
 
-TODO: Write a gem description
+THIS IS NOT RELEASED YET SOON
+
+This gem is for part of a larger project check out
+[gitRankr](https://github.com/ChrisCPO/gitRankr)
 
 ## Installation
 
